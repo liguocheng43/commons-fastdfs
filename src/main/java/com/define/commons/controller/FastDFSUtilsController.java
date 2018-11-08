@@ -10,6 +10,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 /**
  * fastdfscontroller文件上传/下载/删除接口
+  @Author:liguocheng
+ * @Date:2018-11-6
  */
 @RestController
 @RequestMapping("/file")
