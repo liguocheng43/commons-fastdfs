@@ -34,7 +34,7 @@ public class FastDFSUtilsController {
        * @return 文件字节数组
        */
      @PostMapping("/downloadFile")
-      public byte[] download_file(@RequestParam("group_name") String group_name,@RequestParam("fileName") String romte_fileName) throws Exception {
+      public byte[] download_file(@RequestParam("group_name") String group_name,@RequestParam("romte_fileName") String romte_fileName) throws Exception {
          byte[] bytes = FastDFSUtils.download_file(group_name, romte_fileName);
          return bytes;
      }
@@ -46,7 +46,7 @@ public class FastDFSUtilsController {
        * String romte_fileName：M00/00/00/wKio_lvikeOANa36AAJHlGw13Og494.jpg
      */
      @PostMapping("/deleteFile")
-     public int delete_file(@RequestParam("group_name")String group_name,@RequestParam("fileName") String romte_fileName) throws Exception {
+     public int delete_file(@RequestParam("group_name")String group_name,@RequestParam("romte_fileName") String romte_fileName) throws Exception {
         return FastDFSUtils.delete_file(group_name,romte_fileName);
     }
 }
