@@ -12,7 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
  * fastdfscontroller文件上传/下载/删除接口
  */
 @RestController
-@RequestMapping("/api/file")
+@RequestMapping("/file")
 public class FastDFSUtilsController {
 
     /**
