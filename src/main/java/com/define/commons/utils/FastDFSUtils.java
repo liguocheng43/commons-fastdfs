@@ -7,6 +7,8 @@ import org.springframework.core.io.ClassPathResource;
 
 /**
  * fastdfs文件上传和下载工具类
+ * @Author:liguocheng
+ * @Date:2018-11-6
  */
 public class FastDFSUtils {
     static {
